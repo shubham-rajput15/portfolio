@@ -740,7 +740,7 @@ outline: none;
 }
 .project__title,
 .project__description{
-  color: #fff;
+  color: var(--text-color-light);
 }
 .project__img{
   width: 232ps;
