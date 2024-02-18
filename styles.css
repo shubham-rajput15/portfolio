@@ -677,6 +677,11 @@ h3.services__modal-title {
 }
 
 /*==================== PORTFOLIO ====================*/
+
+.ys-section{
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
 .portfolio__container{
   overflow: initial;
 }
