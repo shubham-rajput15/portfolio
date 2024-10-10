@@ -23,7 +23,6 @@ img {
 /* Hide the images by default */
 .mySlides {
   display: none;
-  text-align:center;
 }
 
 /* Add a pointer when hovering over the thumbnail images */
@@ -189,6 +188,7 @@ function showSlides(n) {
     dots[i].className = dots[i].className.replace(" active", "");
   }
   slides[slideIndex-1].style.display = "block";
+  slides[slideIndex - 1].style.textAlign = "center";
   dots[slideIndex-1].className += " active";
   captionText.innerHTML = dots[slideIndex-1].alt;
 }
